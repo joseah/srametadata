@@ -14,7 +14,7 @@ devtools::install_github("joseah/srametadata")
 
 Package can be loaded into R as follows:
 ```r
-    library('srametadata')
+library('srametadata')
 ```
 
 # Get started with **srmetadata** 

@@ -33,9 +33,7 @@ sqlfile <- file.path('.', 'SRAmetadb.sqlite')
 # Create connection
 conn <- dbConnect(SQLite(),sqlfile)
 
-# one file and three files
-
-# one file, two files and three files
+# one file, two files and three files associated with corresponding run accessions
 get_fastq_urls(runacc = c("DRR001482", "DRR001627", "ERR204978"),
                db_con = conn)
 ```

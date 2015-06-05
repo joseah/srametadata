@@ -2,4 +2,5 @@
 
 export(download_sra_db)
 export(get_fastq_urls)
+export(get_raw_metadata)
 export(search_field)
